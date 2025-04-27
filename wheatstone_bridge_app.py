@@ -13,7 +13,7 @@ This simulation helps you understand how a Wheatstone Bridge works and how it po
 Adjust resistor values and see how the bridge balances!
 """)
 
-st.image("https://raw.githubusercontent.com/mayank-shukla16/wheatstone-simulator/refs/heads/main/assets./wheatstone%20bridge%20circuit%20diagram.jpg", caption="Basic Wheatstone Bridge Circuit")
+st.image("https://raw.githubusercontent.com/mayank-shukla16/wheatstone-simulator/main/assets./wheatstone%20bridge%20circuit%20diagram.jpg", caption="Basic Wheatstone Bridge Circuit")
 
 st.header("🔧 Set Resistor Values (Ohms)")
 R1 = st.slider('R1', 1.0, 1000.0, 100.0)
@@ -41,7 +41,7 @@ When you move your wrist or take a step, it slightly bends a flexible surface, c
 This imbalance creates a small voltage difference — the microcontroller converts this to a step count.
 """)
 
-st.image("https://raw.githubusercontent.com/mayank-shukla16/wheatstone-simulator/refs/heads/main/assets./strain%20guage%20and%20wheatstone%20bridge%20circuit%20diagram.jpg", caption="Strain Gauge Bridge Setup for Step Detection")
+st.image("https://raw.githubusercontent.com/mayank-shukla16/wheatstone-simulator/main/assets./strain%20guage%20and%20wheatstone%20bridge%20circuit%20diagram.jpg", caption="Strain Gauge Bridge Setup for Step Detection")
 
 # Simulate strain effect
 strain = st.slider("Simulated Wrist Movement (Strain %)", 0.0, 5.0, 0.0)
@@ -61,7 +61,7 @@ As ambient light changes, the resistance of the LDR varies.
 This causes a voltage imbalance that switches streetlights on or off automatically.
 """)
 
-st.image("https://raw.githubusercontent.com/mayank-shukla16/wheatstone-simulator/refs/heads/main/assets./ldr%20working%20principle%20diagram.jpg", caption="LDR Working Principle")
+st.image("https://raw.githubusercontent.com/mayank-shukla16/wheatstone-simulator/main/assets./ldr%20working%20principle%20diagram.jpg", caption="LDR Working Principle")
 
 # Simulate light intensity effect
 light_intensity = st.slider("Simulated Light Intensity (Lux)", 0.0, 1000.0, 500.0)
